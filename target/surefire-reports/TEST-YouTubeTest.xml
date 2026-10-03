@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="YouTubeTest" time="1009.409" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/macbookair2020/Desktop/tpo3/target/test-classes:/Users/macbookair2020/Desktop/tpo3/target/classes:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/macbookair2020/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/macbookair2020/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/macbookair2020/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/macbookair2020/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/macbookair2020/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/macbookair2020/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/macbookair2020/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@11/11.0.28/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/macbookair2020/Desktop/tpo3/target/surefire/surefirebooter-20261003142734835_3.jar /Users/macbookair2020/Desktop/tpo3/target/surefire 2026-10-03T14-27-34_705-jvmRun1 surefire-20261003142734835_1tmp surefire_0-20261003142734835_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="YouTubeTest#login_validCredentials_userIsLoggedIn"/>
+    <property name="surefire.test.class.path" value="/Users/macbookair2020/Desktop/tpo3/target/test-classes:/Users/macbookair2020/Desktop/tpo3/target/classes:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/macbookair2020/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/macbookair2020/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/macbookair2020/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/macbookair2020/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/macbookair2020/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/macbookair2020/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/macbookair2020/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/Users/macbookair2020/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar:/Users/macbookair2020/.m2/repository/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/macbookair2020"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@11/11.0.28/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/macbookair2020/Desktop/tpo3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/macbookair2020/Desktop/tpo3/target/surefire/surefirebooter-20261003142734835_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.28+0"/>
+    <property name="user.name" value="macbookair2020"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/macbookair2020/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hg/xdkrhp850gj6h83qtc7v1kjm0000gn/T/"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="user.dir" value="/Users/macbookair2020/Desktop/tpo3"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/macbookair2020/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="11.0.28+0"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="login_validCredentials_userIsLoggedIn" classname="YouTubeTest" time="1009.235">
+    <error message="java.net.http.HttpTimeoutException: request timed out&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;11.0.28&apos;&#10;Driver info: org.openqa.selenium.safari.SafariDriver&#10;Command: [D65BE8C4-6581-4161-979E-6F521F5F7B96, findElement {value=//input[@type=&apos;password&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 18.6, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 24G325, safari:platformVersion: 15.7.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}&#10;Session ID: D65BE8C4-6581-4161-979E-6F521F5F7B96" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.2', java.version: '11.0.28'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D65BE8C4-6581-4161-979E-6F521F5F7B96, findElement {value=//input[@type='password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 18.6, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 24G325, safari:platformVersion: 15.7.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D65BE8C4-6581-4161-979E-6F521F5F7B96
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:498)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	Suppressed: org.openqa.selenium.NoSuchSessionException: Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.2', java.version: '11.0.28'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D65BE8C4-6581-4161-979E-6F521F5F7B96, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 18.6, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 24G325, safari:platformVersion: 15.7.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D65BE8C4-6581-4161-979E-6F521F5F7B96
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+		at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+		at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+		... 3 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:560)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+]]></error>
+  </testcase>
+</testsuite>

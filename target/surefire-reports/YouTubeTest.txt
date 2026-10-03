@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: YouTubeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1009 s <<< FAILURE! -- in YouTubeTest
+YouTubeTest.login_validCredentials_userIsLoggedIn -- Time elapsed: 1009 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.2', java.version: '11.0.28'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D65BE8C4-6581-4161-979E-6F521F5F7B96, findElement {value=//input[@type='password'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 18.6, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 24G325, safari:platformVersion: 15.7.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D65BE8C4-6581-4161-979E-6F521F5F7B96
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:498)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	Suppressed: org.openqa.selenium.NoSuchSessionException: Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.2', java.version: '11.0.28'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D65BE8C4-6581-4161-979E-6F521F5F7B96, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 18.6, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 24G325, safari:platformVersion: 15.7.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D65BE8C4-6581-4161-979E-6F521F5F7B96
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+		at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+		at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+		... 3 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:560)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+
